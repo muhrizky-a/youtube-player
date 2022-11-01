@@ -72,5 +72,5 @@ function createHistoryCard(value){
 submit.addEventListener("click", () => {
     iframe.src = `https://www.youtube.com/embed/${input.value}?controls=controls=2&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=1&rel=0&playsInline=0&start=0`;
     console.log(document.querySelector(".ytp-title-link").innerText)
-    createHistoryCard(`${document.querySelector(".ytp-title-link").innerText} : ${input.value}`);
+    createHistoryCard(input.value);
 });
