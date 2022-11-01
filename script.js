@@ -52,6 +52,7 @@ const outputContainer = document.querySelector("#output-container");
 outputContainer.style.cssText = `
         padding: 5px;
         border: 2px solid ${purple};
+        height: 200px;
         overflow: auto;
     `;
 
